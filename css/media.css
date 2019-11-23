@@ -1,0 +1,170 @@
+@media screen and (min-width: 375px) {
+  .hamburger__box {
+    height: 90px;
+  }
+  .hamburger__inner {
+    height: 110px;
+  }
+  .hamburger--active {
+    transform: translatex(290px);
+  }
+  .navigation {
+    width: 290px;
+  }
+
+  .glitch {
+    left: -50px;
+  }
+  .hero-title p {
+    left: -50px;
+  }
+  .hero-gif {
+    left: 47%;
+    width: 90vw;
+    height: 19vh;
+  }
+  .social-media {
+    bottom: 0.5%;
+  }
+  .rotatethis {
+    top: 70%;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .hamburger__box {
+    height: 100px;
+  }
+  .hamburger__inner {
+    height: 120px;
+  }
+  .hamburger--active {
+    transform: translatex(310px);
+  }
+  .navigation {
+    width: 310px;
+  }
+  .glitch {
+    left: -70px;
+  }
+  .hero-title p {
+    left: -70px;
+  }
+  .hero-gif {
+    left: 45%;
+    width: 85vw;
+    height: 26vh;
+  }
+  .social-media {
+    bottom: 0.5%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hamburger__box {
+    height: 120px;
+    width: 50px;
+  }
+  .hamburger__inner {
+    height: 130px;
+  }
+  .watch {
+    right: 60px;
+  }
+  .glitch {
+    top: 70px;
+  }
+  .hero-title p {
+    top: 70px;
+  }
+  .hero-gif {
+    left: 45%;
+    width: 85vw;
+    height: 46vh;
+  }
+  .rotatethis {
+    top: 74%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hamburger__box {
+    height: 110px;
+    width: 50px;
+  }
+  .hamburger__inner {
+    height: 120px;
+  }
+  .watch {
+    right: 90px;
+  }
+  .glitch {
+    top: 60px;
+  }
+  .hero-title p {
+    top: 60px;
+  }
+  .hero-gif {
+    left: 45%;
+    width: 58vw;
+    height: 36vh;
+    background-size: 90%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hamburger__box {
+    height: 110px;
+    width: 50px;
+  }
+  .hamburger__inner {
+    height: 120px;
+  }
+  .watch {
+    right: 140px;
+  }
+  .hero-gif {
+    left: 45%;
+    width: 48vw;
+    height: 36vh;
+    background-size: 80%;
+  }
+  .rotatethis {
+    top: 70%;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .hamburger__box {
+    height: 110px;
+    width: 50px;
+  }
+  .hamburger__inner {
+    height: 120px;
+  }
+  .watch {
+    right: 30px;
+  }
+  .hero-title {
+    width: 900px;
+  }
+  .hero-title h1 {
+    font-size: 80px;
+  }
+  .glitch {
+    position: relative;
+    top: 80px;
+  }
+  .hero-title p {
+    top: 80px;
+  }
+  .hero-gif {
+    left: 50%;
+    width: 48vw;
+    height: 46vh;
+    background-size: 80%;
+  }
+  .social-media {
+    bottom: 3%;
+  }
+}
