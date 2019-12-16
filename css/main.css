@@ -233,6 +233,30 @@ img {
   font-weight: 300;
 }
 
+.about {
+  width: 60vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.about__title {
+  width: 70%;
+  margin-top: 30px;
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.about__text {
+  width: 70%;
+  margin: 30px auto;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
 footer {
   text-align: center;
   width: 100vw;
