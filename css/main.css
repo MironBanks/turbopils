@@ -186,12 +186,12 @@ img {
 
 .news {
   margin-top: 100px;
-  margin-bottom: 40px;
   width: 80vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 40px;
 }
 
 .news__first {
@@ -226,4 +226,26 @@ img {
   margin: 30px auto;
   font-size: 1rem;
   font-weight: 300;
+}
+
+.news__date {
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+footer {
+  text-align: center;
+  width: 100vw;
+  bottom: 0px;
+  background: #fff;
+  height: 40px;
+  position: fixed;
+  z-index: 2;
+}
+
+footer p {
+  display: inline-flex;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: 0.6rem;
 }
