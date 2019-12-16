@@ -1,4 +1,32 @@
 @media (max-width: 320px) {
+  #toggle {
+    visibility: visible;
+    opacity: 1;
+    margin-top: 6px;
+    margin-right: 3px;
+  }
+
+  nav #brand {
+    margin-left: 24px;
+  }
+
+  #menu a {
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  #resize {
+    width: 100vw;
+  }
+
+  #resize li span {
+    font-weight: bolder;
+  }
+
+  nav #menu {
+    display: none;
+  }
+
   .container {
     width: 80vw;
   }
@@ -40,20 +68,6 @@
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
-  html,
-  body {
-    width: 100vw;
-    height: 100vh;
-  }
-
-  .whitespace {
-    display: none;
-  }
-
-  nav {
-    width: 100vw;
-  }
-
   #toggle {
     visibility: visible;
     opacity: 1;
@@ -82,68 +96,55 @@
     display: none;
   }
 
-  .header h1 {
-    font-size: 18px;
+  .container {
+    width: 80vw;
   }
 
-  .hero h1 {
-    line-height: 48px;
+  img {
+    width: 80%;
   }
 
-  .project {
-    width: 90% !important;
-    margin: 14px auto;
+  .news__wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 100px;
   }
 
-  .vertical {
-    display: none;
+  .news {
+    width: 95vw;
   }
 
-  .project1::after {
-    font-size: 26px;
-    left: 10%;
-    top: 70%;
+  .news__first {
+    width: 100%;
   }
 
-  .project2::after {
-    font-size: 26px;
-    top: 70%;
-    left: -3%;
+  .news__second {
+    width: 100%;
   }
 
-  .project3::after {
-    font-size: 26px;
-    top: 80%;
-    left: 15%;
+  .news__img {
+    width: 100%;
   }
 
-  .project4::after {
-    font-size: 26px;
-    top: 10%;
-    left: 40%;
+  .news__title {
+    width: 80%;
   }
 
-  .collab,
-  #personal,
-  #media,
-  #address {
-    text-align: center;
+  .news__text {
+    width: 80%;
   }
 
-  .info ul {
-    margin: 0 0 0 -22px;
-    padding: 0;
+  .about {
+    width: 95vw;
   }
 
-  .hero-content {
-    padding-top: 50px;
-    width: 96%;
-    margin: 0 auto;
+  .about__title {
+    width: 80%;
   }
 
-  #contact-form {
-    margin: 5% -8%;
-    width: 98%;
+  .about__text {
+    width: 80%;
   }
 }
 

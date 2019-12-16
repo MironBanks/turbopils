@@ -115,7 +115,6 @@ nav #menu li a:hover {
 #resize #menu li {
   display: block;
   text-align: center;
-  align-content: center;
   padding: 10px 0;
   font-size: 50px;
   min-height: 50px;
@@ -163,6 +162,7 @@ nav #menu li a:hover {
 
 img {
   width: 40%;
+  max-width: 900px;
 }
 
 .media ul {
