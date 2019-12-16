@@ -1,18 +1,41 @@
 @media (max-width: 320px) {
-  .header h1 {
-    font-size: 14px;
+  .container {
+    width: 80vw;
   }
 
-  .hero h1 {
-    word-spacing: -3px;
-    font-weight: lighter;
-    text-align: center;
-    letter-spacing: -2px;
-    line-height: 58px;
+  img {
+    width: 80%;
   }
 
-  .info h4 {
-    font-size: 16px;
+  .news__wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 100px;
+  }
+
+  .news {
+    width: 95vw;
+  }
+
+  .news__first {
+    width: 100%;
+  }
+
+  .news__second {
+    width: 100%;
+  }
+
+  .news__img {
+    width: 100%;
+  }
+
+  .news__title {
+    width: 80%;
+  }
+
+  .news__text {
+    width: 80%;
   }
 }
 
